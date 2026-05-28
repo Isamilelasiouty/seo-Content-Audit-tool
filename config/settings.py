@@ -9,7 +9,8 @@ from pathlib import Path
 
 # ─── Paths ────────────────────────────────────────────────────────────────────
 BASE_DIR   = Path(__file__).parent.parent
-DB_PATH    = BASE_DIR / "database" / "seo_intelligence.db"
+import os
+DB_PATH    = Path(os.environ.get("DB_PATH", "/tmp/seo_intelligence.db"))
 LOG_DIR    = BASE_DIR / "logs"
 EXPORT_DIR = BASE_DIR / "exports"
 
