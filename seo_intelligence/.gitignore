@@ -1,0 +1,23 @@
+__pycache__/
+*.pyc
+*.pyo
+.env
+.venv/
+venv/
+*.egg-info/
+dist/
+build/
+.DS_Store
+
+# Database (don't commit the SQLite file)
+database/*.db
+
+# Exports (don't commit generated reports)
+exports/
+
+# Logs
+logs/*.log
+
+# Sentence-transformer model cache
+.cache/
+sentence_transformers_cache/
