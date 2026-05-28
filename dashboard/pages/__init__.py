@@ -1,0 +1,15 @@
+from dashboard.pages import (
+    page_overview,
+    page_crawl,
+    page_meta,
+    page_links,
+    page_anchors,
+    page_opportunities,
+    page_duplicates,
+    page_clusters,
+    page_reports,
+    page_team,
+    page_settings,
+    page_contact,
+    page_404,
+)
